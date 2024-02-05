@@ -1,0 +1,5 @@
+.venv
+.vscode
+test.txt
+input.txt
+*.pyc
