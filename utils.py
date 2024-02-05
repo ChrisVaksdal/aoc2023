@@ -29,7 +29,7 @@ def _downloadInput(day: int) -> bool:
 def readInput(file="input.txt", day=None) -> list[str]:
     """ Reads the input file and returns a list of strings, one for each line. """
     dir_path = os.getcwd()
-    if day != None:
+    if day != None and not dir_path.endswith(str(day)):
         dir_path = os.path.join(dir_path, str(day))
     file_path = os.path.join(dir_path, file)
     try:
@@ -66,7 +66,6 @@ def _create_folder_and_file(day: int) -> bool:
             f.write("")
 
     return True
-        
 
 def readTestInput(file="test.txt", day=None) -> list[str]:
     return readInput(file, day=day)
