@@ -1,7 +1,7 @@
 # Advent of Code 2023
 These are my solutions for [Advent of Code 2023](https://adventofcode.com/2023).
 
-## Solved Table:
+## Solved Table: 
 
 | **_Day_** 	| **Part 1** 	| **Part 2** 	|
 |:---------:	|:----------:	|:----------:	|
@@ -30,3 +30,8 @@ These are my solutions for [Advent of Code 2023](https://adventofcode.com/2023).
 |    _23_   	|      ❌     	|      ❌     	|
 |    _24_   	|      ❌     	|      ❌     	|
 |    _25_   	|      ❌     	|      ❌     	|
+
+## Instructions: 
+To run the solutions simply run `python3 aoc.py <day>` to get the answers for that day.
+In order to download your inputs you need to set the `AOC_SESSION` environment variable (or download them manually into a file called `input.txt` for each day).
+If you run the script on a day that does not exist, a folder with a stub python-script (based on `template.py`) and an empty test.txt will be generated for you.

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os
 import argparse
 from utils import _create_folder_and_file
